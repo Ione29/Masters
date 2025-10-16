@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.pp_labs.lab_02.MainTest" time="0.054" tests="4" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="25"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/ione/Gits/Masters/Year_01/Programming_Paradigms/pp_lab_02/target/test-classes:/home/ione/Gits/Masters/Year_01/Programming_Paradigms/pp_lab_02/target/classes:/home/ione/.m2/repository/org/codehaus/mojo/exec-maven-plugin/3.5.0/exec-maven-plugin-3.5.0.jar:/home/ione/.m2/repository/org/apache/maven/resolver/maven-resolver-util/1.4.1/maven-resolver-util-1.4.1.jar:/home/ione/.m2/repository/org/apache/maven/resolver/maven-resolver-api/1.4.1/maven-resolver-api-1.4.1.jar:/home/ione/.m2/repository/org/codehaus/plexus/plexus-utils/4.0.2/plexus-utils-4.0.2.jar:/home/ione/.m2/repository/org/codehaus/plexus/plexus-xml/3.0.1/plexus-xml-3.0.1.jar:/home/ione/.m2/repository/org/apache/commons/commons-exec/1.4.0/commons-exec-1.4.0.jar:/home/ione/.m2/repository/org/ow2/asm/asm/9.7.1/asm-9.7.1.jar:/home/ione/.m2/repository/org/ow2/asm/asm-commons/9.7.1/asm-commons-9.7.1.jar:/home/ione/.m2/repository/org/ow2/asm/asm-tree/9.7.1/asm-tree-9.7.1.jar:/home/ione/.m2/repository/org/mockito/junit-jupiter/2.20.0/junit-jupiter-2.20.0.jar:/home/ione/.m2/repository/org/mockito/mockito-core/2.20.0/mockito-core-2.20.0.jar:/home/ione/.m2/repository/net/bytebuddy/byte-buddy/1.8.13/byte-buddy-1.8.13.jar:/home/ione/.m2/repository/net/bytebuddy/byte-buddy-agent/1.8.13/byte-buddy-agent-1.8.13.jar:/home/ione/.m2/repository/org/objenesis/objenesis/2.6/objenesis-2.6.jar:/home/ione/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.1.0/junit-jupiter-api-5.1.0.jar:/home/ione/.m2/repository/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar:/home/ione/.m2/repository/org/opentest4j/opentest4j/1.0.0/opentest4j-1.0.0.jar:/home/ione/.m2/repository/org/junit/platform/junit-platform-commons/1.1.0/junit-platform-commons-1.1.0.jar:/home/ione/.m2/repository/org/projectlombok/lombok/1.18.42/lombok-1.18.42.jar:/home/ione/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/ione/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="java.vm.vendor" value="Arch Linux"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://openjdk.org/"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="25"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-25-openjdk/lib"/>
+    <property name="sun.java.command" value="/home/ione/Gits/Masters/Year_01/Programming_Paradigms/pp_lab_02/target/surefire/surefirebooter-20251013191547329_3.jar /home/ione/Gits/Masters/Year_01/Programming_Paradigms/pp_lab_02/target/surefire 2025-10-13T19-15-47_191-jvmRun1 surefire-20251013191547329_1tmp surefire_0-20251013191547329_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/ione/Gits/Masters/Year_01/Programming_Paradigms/pp_lab_02/target/test-classes:/home/ione/Gits/Masters/Year_01/Programming_Paradigms/pp_lab_02/target/classes:/home/ione/.m2/repository/org/codehaus/mojo/exec-maven-plugin/3.5.0/exec-maven-plugin-3.5.0.jar:/home/ione/.m2/repository/org/apache/maven/resolver/maven-resolver-util/1.4.1/maven-resolver-util-1.4.1.jar:/home/ione/.m2/repository/org/apache/maven/resolver/maven-resolver-api/1.4.1/maven-resolver-api-1.4.1.jar:/home/ione/.m2/repository/org/codehaus/plexus/plexus-utils/4.0.2/plexus-utils-4.0.2.jar:/home/ione/.m2/repository/org/codehaus/plexus/plexus-xml/3.0.1/plexus-xml-3.0.1.jar:/home/ione/.m2/repository/org/apache/commons/commons-exec/1.4.0/commons-exec-1.4.0.jar:/home/ione/.m2/repository/org/ow2/asm/asm/9.7.1/asm-9.7.1.jar:/home/ione/.m2/repository/org/ow2/asm/asm-commons/9.7.1/asm-commons-9.7.1.jar:/home/ione/.m2/repository/org/ow2/asm/asm-tree/9.7.1/asm-tree-9.7.1.jar:/home/ione/.m2/repository/org/mockito/junit-jupiter/2.20.0/junit-jupiter-2.20.0.jar:/home/ione/.m2/repository/org/mockito/mockito-core/2.20.0/mockito-core-2.20.0.jar:/home/ione/.m2/repository/net/bytebuddy/byte-buddy/1.8.13/byte-buddy-1.8.13.jar:/home/ione/.m2/repository/net/bytebuddy/byte-buddy-agent/1.8.13/byte-buddy-agent-1.8.13.jar:/home/ione/.m2/repository/org/objenesis/objenesis/2.6/objenesis-2.6.jar:/home/ione/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.1.0/junit-jupiter-api-5.1.0.jar:/home/ione/.m2/repository/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar:/home/ione/.m2/repository/org/opentest4j/opentest4j/1.0.0/opentest4j-1.0.0.jar:/home/ione/.m2/repository/org/junit/platform/junit-platform-commons/1.1.0/junit-platform-commons-1.1.0.jar:/home/ione/.m2/repository/org/projectlombok/lombok/1.18.42/lombok-1.18.42.jar:/home/ione/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/ione/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/ione"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-09-16"/>
+    <property name="java.home" value="/usr/lib/jvm/java-25-openjdk"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/ione/Gits/Masters/Year_01/Programming_Paradigms/pp_lab_02"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="surefire.real.class.path" value="/home/ione/Gits/Masters/Year_01/Programming_Paradigms/pp_lab_02/target/surefire/surefirebooter-20251013191547329_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="25.0.1"/>
+    <property name="user.name" value="ione"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="6.17.1-zen1-1-zen"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/ione/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="25.0.1"/>
+    <property name="user.dir" value="/home/ione/Gits/Masters/Year_01/Programming_Paradigms/pp_lab_02"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Arch Linux"/>
+    <property name="java.vm.version" value="25.0.1"/>
+    <property name="stdin.encoding" value="UTF-8"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="69.0"/>
+  </properties>
+  <testcase name="testFindEmployeeByName_CaseInsensitiveSearch" classname="com.pp_labs.lab_02.MainTest" time="0.024"/>
+  <testcase name="testFindEmployeeByName_EmployeeExists" classname="com.pp_labs.lab_02.MainTest" time="0.002"/>
+  <testcase name="testPopulateEmployeeList" classname="com.pp_labs.lab_02.MainTest" time="0.002"/>
+  <testcase name="testFindEmployeeByName_EmployeeDoesNotExist" classname="com.pp_labs.lab_02.MainTest" time="0.001"/>
+</testsuite>
