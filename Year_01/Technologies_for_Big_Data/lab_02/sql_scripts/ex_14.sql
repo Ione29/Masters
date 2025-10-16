@@ -1,0 +1,4 @@
+CREATE TABLE dept(id NUMBER(7) 
+CONSTRAINT deptb_id_pk 
+PRIMARY KEY, dept_name 
+VARCHAR2(25));
