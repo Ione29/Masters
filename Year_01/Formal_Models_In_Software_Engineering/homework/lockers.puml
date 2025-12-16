@@ -1,0 +1,23 @@
+@startuml
+title Smart Locker Pickup System
+
+actor User
+participant "Locker System" as LS
+participant "Locker Unit" as LU
+
+User -> LS : requestPickup
+activate LS
+
+LS -> User : pickupAuthorized
+
+LS -> LU : unlockLocker
+activate LU
+
+LU -> LS : lockerOpened
+
+LU -> User : retrieveParcel
+LU -> User : lockerClosed
+
+deactivate LU
+deactivate LS
+@enduml
